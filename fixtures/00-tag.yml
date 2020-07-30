@@ -1,0 +1,6 @@
+App\Entity\Tag:
+    tag_{1..10}:
+        name: <name()>
+        descrition: <sentence()>
+        
+        

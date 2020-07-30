@@ -1,0 +1,16 @@
+easy_admin:
+   entities:
+    #    # List the entity class name you want to manage
+    #    - App\Entity\Tag
+    #    - App\Entity\Student
+    #    - App\Entity\User
+    #    - App\Entity\Project
+    #    - App\Entity\SchoolYear
+    #    - App\Entity\Article
+        Article:
+            class: App\Entity\Article
+            new: 
+                fields: 
+                - 'title'
+                - {property: 'body', type: 'text_editor'}
+                - {property: 'picture', type: 'file'}
